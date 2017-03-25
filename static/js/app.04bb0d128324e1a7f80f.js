@@ -304,7 +304,7 @@ module.exports = __webpack_require__.p + "static/img/b3.aa8a03b.jpg";
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "static/img/logo.b599b51.png";
+module.exports = __webpack_require__.p + "static/img/logo.ba49064.png";
 
 /***/ }),
 /* 24 */
@@ -523,15 +523,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "container"
   }, [_c('br'), _c('br'), _vm._v(" "), _c('h1', {
     staticClass: "header center white-text text-lighten-2"
-  }, [_vm._v("Singular Point")]), _vm._v(" "), _c('div', {
-    staticClass: "row center"
-  }, [_c('a', {
-    staticClass: "btn-large waves-effect waves-light teal lighten-1",
-    attrs: {
-      "href": "http://materializecss.com/getting-started.html",
-      "id": "download-button"
-    }
-  }, [_vm._v("按鈕也可以拿掉看你Get Started")])]), _vm._v(" "), _c('br'), _c('br')])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Singular Point")]), _vm._v(" "), _c('br'), _c('br')])]), _vm._v(" "), _c('div', {
     staticClass: "parallax"
   }, [_c('img', {
     attrs: {
@@ -561,9 +553,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])]), _vm._v(" "), _c('h5', {
     staticClass: "center"
-  }, [_vm._v("要寫什麼")]), _vm._v(" "), _c('p', {
-    staticClass: "light"
-  }, [_vm._v("We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components.\n              Additionally, we refined animations and transitions to provide a smoother experience for developers.")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("FaceBook")])])]), _vm._v(" "), _c('div', {
     staticClass: "col s12 m4"
   }, [_c('div', {
     staticClass: "icon-block"
@@ -581,9 +571,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])]), _vm._v(" "), _c('h5', {
     staticClass: "center"
-  }, [_vm._v("這邊呢？")]), _vm._v(" "), _c('p', {
-    staticClass: "light"
-  }, [_vm._v("By utilizing elements and principles of Material Design, we were able to create a framework that incorporates\n              components and animations that provide more feedback to users. Additionally, a single underlying responsive\n              system across all platforms allow for a more unified user experience.")])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Flickr")])])]), _vm._v(" "), _c('div', {
     staticClass: "col s12 m4"
   }, [_c('div', {
     staticClass: "icon-block"
@@ -601,19 +589,13 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])]), _vm._v(" "), _c('h5', {
     staticClass: "center"
-  }, [_vm._v("要刪掉也可以")]), _vm._v(" "), _c('p', {
-    staticClass: "light"
-  }, [_vm._v("We have provided detailed documentation as well as specific code examples to help new users get started. We\n              are also always open to feedback and can answer any questions a user may have about Materialize.")])])])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Youtube")])])])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax-container valign-wrapper"
   }, [_c('div', {
     staticClass: "section no-pad-bot"
   }, [_c('div', {
     staticClass: "container"
-  }, [_c('div', {
-    staticClass: "row center"
-  }, [_c('h5', {
-    staticClass: "header col s12 light"
-  }, [_vm._v("這邊要嗎A modern responsive front-end framework based on Material Design")])])])]), _vm._v(" "), _c('div', {
+  })]), _vm._v(" "), _c('div', {
     staticClass: "parallax"
   }, [_c('img', {
     attrs: {
@@ -8903,4 +8885,4 @@ Picker.extend( 'pickadate', DatePicker )
 
 /***/ })
 ],[13]);
-//# sourceMappingURL=app.92260bf871db7ad51223.js.map
+//# sourceMappingURL=app.04bb0d128324e1a7f80f.js.map
