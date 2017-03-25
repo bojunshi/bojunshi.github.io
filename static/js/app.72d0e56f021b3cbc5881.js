@@ -563,8 +563,10 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('h2', {
     staticClass: "center black-text"
   }, [_c('a', {
+    staticClass: "black-text",
     attrs: {
-      "href": "https://www.facebook.com/SINGULAR.POINT.TW/?ref=ts&fref=ts"
+      "href": "https://www.facebook.com/SINGULAR.POINT.TW/?ref=ts&fref=ts",
+      "target": "blank"
     }
   }, [_c('i', {
     staticClass: "fa fa-facebook-square",
@@ -582,7 +584,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "black-text",
     attrs: {
-      "href": "https://www.flickr.com/photos/139379941@N06/albums"
+      "href": "https://www.flickr.com/photos/139379941@N06/albums",
+      "target": "blank"
     }
   }, [_c('i', {
     staticClass: "fa fa-flickr",
@@ -600,7 +603,8 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('a', {
     staticClass: "black-text",
     attrs: {
-      "href": "https://www.youtube.com/user/bojunshi/featured"
+      "href": "https://www.youtube.com/user/bojunshi/featured",
+      "target": "blank"
     }
   }, [_c('i', {
     staticClass: "fa fa-youtube-play",
@@ -609,7 +613,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     }
   })])]), _vm._v(" "), _c('h5', {
     staticClass: "center"
-  }, [_vm._v("Youtube")])])])])])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("YouTube")])])])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax-container valign-wrapper"
   }, [_c('div', {
     staticClass: "section no-pad-bot"
@@ -632,7 +636,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "col s12 center"
   }, [_c('h3', [_c('i', {
     staticClass: "mdi-content-send brown-text"
-  })]), _vm._v(" "), _c('h4', [_vm._v("Contact Us")]), _vm._v(" "), _c('p', {
+  })]), _vm._v(" "), _c('h4', [_vm._v("About Us")]), _vm._v(" "), _c('p', {
     staticClass: "left-align light"
   }), _c('p', [_vm._v("奇點")]), _vm._v(" "), _c('p', [_vm._v("宇宙萬物大爆炸論的起點，也是我夢想的起點")]), _vm._v(" "), _c('p')])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax-container valign-wrapper"
@@ -8908,4 +8912,4 @@ Picker.extend( 'pickadate', DatePicker )
 
 /***/ })
 ],[13]);
-//# sourceMappingURL=app.c8b529454c1e1a71c6b2.js.map
+//# sourceMappingURL=app.72d0e56f021b3cbc5881.js.map
