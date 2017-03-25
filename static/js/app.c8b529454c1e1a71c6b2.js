@@ -97,7 +97,7 @@ __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */].use(__WEBPACK_IMPORTED_MODU
   routes: [{
     path: '/',
     name: 'Home',
-    component: __WEBPACK_IMPORTED_MODULE_4__container_Home_vue___default.a
+    component: __WEBPACK_IMPORTED_MODULE_5__container_Work_vue___default.a
   }, {
     path: '/work',
     name: 'Work',
@@ -378,7 +378,29 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "en-name"
     }
-  }, [_vm._v("Singular Point Images Sutdio")])]), _vm._v(" "), _c('div', {
+  }, [_vm._v("Singular Point Images Sutdio")]), _vm._v(" "), _c('p', {
+    staticClass: "black-text text-lighten-4"
+  }, [_c('i', {
+    staticClass: "fa fa-envelope",
+    attrs: {
+      "aria-hidden": "true"
+    }
+  }), _c('span', {
+    attrs: {
+      "id": "email"
+    }
+  }, [_vm._v("bojunshi52385238@gmail.com")])]), _vm._v(" "), _c('p', {
+    staticClass: "black-text text-lighten-4"
+  }, [_c('i', {
+    staticClass: "fa fa-phone",
+    attrs: {
+      "aria-hidden": "true"
+    }
+  }), _c('span', {
+    attrs: {
+      "id": "phone"
+    }
+  }, [_vm._v("0933173058")])])]), _vm._v(" "), _c('div', {
     staticClass: "col l2 offset-l1 s12"
   }, [_c('h5', {
     staticClass: "black-text"
@@ -521,9 +543,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "section no-pad-bot"
   }, [_c('div', {
     staticClass: "container"
-  }, [_c('br'), _c('br'), _vm._v(" "), _c('h1', {
-    staticClass: "header center white-text text-lighten-2"
-  }, [_vm._v("Singular Point")]), _vm._v(" "), _c('br'), _c('br')])]), _vm._v(" "), _c('div', {
+  }, [_c('br'), _c('br'), _vm._v(" "), _c('br'), _c('br')])]), _vm._v(" "), _c('div', {
     staticClass: "parallax"
   }, [_c('img', {
     attrs: {
@@ -623,8 +643,11 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "row center"
   }, [_c('h5', {
-    staticClass: "header col s12 light"
-  }, [_vm._v("A modern responsive front-end framework based on Material Design")])])])]), _vm._v(" "), _c('div', {
+    staticClass: "header col s12 white-text ",
+    attrs: {
+      "id": "contant"
+    }
+  }, [_vm._v("歡迎來電或私訊邀約")])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax"
   }, [_c('img', {
     attrs: {
@@ -8885,4 +8908,4 @@ Picker.extend( 'pickadate', DatePicker )
 
 /***/ })
 ],[13]);
-//# sourceMappingURL=app.04bb0d128324e1a7f80f.js.map
+//# sourceMappingURL=app.c8b529454c1e1a71c6b2.js.map
