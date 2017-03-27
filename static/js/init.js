@@ -4,9 +4,12 @@ export default {
   mounted() {
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    // $('.collapsible').collapsible();
-
-    console.log($('.button-collapse'))
+    $('.materialboxed').materialbox();
+    console.log(firebase)
+    // const dbRef = firebase.database().ref().child('email')
+    // console.log(dbRef)
+    // dbRef.on('value', snap => console.log(snap.val()))
+    // console.log($('.button-collapse'))
   }
 }
 // (function($){
