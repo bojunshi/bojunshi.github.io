@@ -233,7 +233,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
   data: function data() {
     return {
       msg: 'Welcome to Your Vue.js App',
-      about: ''
+      about: '',
+      photoText: ''
     };
   },
   mounted: function mounted() {
@@ -242,6 +243,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     var dbRefAbout = firebase.database().ref().child('about');
     dbRefAbout.on('value', function (snap) {
       return _this.about = snap.val();
+    });
+    var dbRefPhotoText = firebase.database().ref().child('photo-text');
+    dbRefPhotoText.on('value', function (snap) {
+      return _this.photoText = snap.val();
     });
   }
 });
@@ -662,7 +667,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "col s12 center"
   }, [_vm._m(3), _vm._v(" "), _c('h4', [_vm._v("About Us")]), _vm._v(" "), _c('p', {
     staticClass: "left-align light"
-  }), _c('p', [_vm._v("奇點")]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.about))]), _vm._v(" "), _c('p')])])])]), _vm._v(" "), _c('div', {
+  }), _c('p', [_vm._v("奇點")]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.photoText))]), _vm._v(" "), _c('p')])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax-container valign-wrapper"
   }, [_c('div', {
     staticClass: "section no-pad-bot"
@@ -9102,4 +9107,4 @@ Picker.extend( 'pickadate', DatePicker )
 
 /***/ })
 ]),[45]);
-//# sourceMappingURL=app.b291d066582646b4c139.js.map
+//# sourceMappingURL=app.f2322446bcb1fd860580.js.map
