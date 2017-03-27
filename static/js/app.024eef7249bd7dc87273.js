@@ -667,7 +667,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     staticClass: "col s12 center"
   }, [_vm._m(3), _vm._v(" "), _c('h4', [_vm._v("About Us")]), _vm._v(" "), _c('p', {
     staticClass: "left-align light"
-  }), _c('p', [_vm._v("奇點")]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.photoText))]), _vm._v(" "), _c('p')])])])]), _vm._v(" "), _c('div', {
+  }), _c('p', [_vm._v("奇點")]), _vm._v(" "), _c('p', [_vm._v(_vm._s(_vm.about))]), _vm._v(" "), _c('p')])])])]), _vm._v(" "), _c('div', {
     staticClass: "parallax-container valign-wrapper"
   }, [_c('div', {
     staticClass: "section no-pad-bot"
@@ -680,7 +680,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     attrs: {
       "id": "contant"
     }
-  }, [_vm._v(_vm._s(_vm.about))])])])]), _vm._v(" "), _vm._m(4)])])
+  }, [_vm._v(_vm._s(_vm.photoText))])])])]), _vm._v(" "), _vm._m(4)])])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
     staticClass: "parallax-container",
@@ -9107,4 +9107,4 @@ Picker.extend( 'pickadate', DatePicker )
 
 /***/ })
 ]),[45]);
-//# sourceMappingURL=app.f2322446bcb1fd860580.js.map
+//# sourceMappingURL=app.024eef7249bd7dc87273.js.map
