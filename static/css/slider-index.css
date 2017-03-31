@@ -1,0 +1,229 @@
+@keyframes slide2 {
+  0% {
+    transform: translateX(-10%);
+  }
+  37.5% {
+    transform: translateX(-10%);
+  }
+  50% {
+    transform: translateX(-20%);
+  }
+  87.5% {
+    transform: translateX(-20%);
+  }
+  100% {
+    transform: translateX(-30%);
+  }
+}
+@keyframes slide3 {
+  0% {
+    transform: translateX(-10%);
+  }
+  25% {
+    transform: translateX(-10%);
+  }
+  33.33% {
+    transform: translateX(-20%);
+  }
+  58.33% {
+    transform: translateX(-20%);
+  }
+  66.66% {
+    transform: translateX(-30%);
+  }
+  91.66% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(-40%);
+  }
+}
+@keyframes slide4 {
+  0% {
+    transform: translateX(-10%);
+  }
+  18.75% {
+    transform: translateX(-10%);
+  }
+  25% {
+    transform: translateX(-20%);
+  }
+  43.75% {
+    transform: translateX(-20%);
+  }
+  50% {
+    transform: translateX(-30%);
+  }
+  68.75% {
+    transform: translateX(-30%);
+  }
+  75% {
+    transform: translateX(-40%);
+  }
+  93.75% {
+    transform: translateX(-40%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+@keyframes slide5 {
+  0% {
+    transform: translateX(-10%);
+  }
+  15% {
+    transform: translateX(-10%);
+  }
+  20% {
+    transform: translateX(-20%);
+  }
+  35% {
+    transform: translateX(-20%);
+  }
+  40% {
+    transform: translateX(-30%);
+  }
+  55% {
+    transform: translateX(-30%);
+  }
+  60% {
+    transform: translateX(-40%);
+  }
+  75% {
+    transform: translateX(-40%);
+  }
+  80% {
+    transform: translateX(-50%);
+  }
+  95% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-60%);
+  }
+}
+@keyframes slide6 {
+  0% {
+    transform: translateX(-10%);
+  }
+  12.5% {
+    transform: translateX(-10%);
+  }
+  16.66% {
+    transform: translateX(-20%);
+  }
+  29.16% {
+    transform: translateX(-20%);
+  }
+  33.33% {
+    transform: translateX(-30%);
+  }
+  45.83% {
+    transform: translateX(-30%);
+  }
+  50% {
+    transform: translateX(-40%);
+  }
+  62.5% {
+    transform: translateX(-40%);
+  }
+  66.66% {
+    transform: translateX(-50%);
+  }
+  79.16% {
+    transform: translateX(-50%);
+  }
+  83.33% {
+    transform: translateX(-60%);
+  }
+  95.83% {
+    transform: translateX(-60%);
+  }
+  100% {
+    transform: translateX(-70%);
+  }
+}
+.main-container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.full-slider {
+  width: 1000px;
+  max-width: 50%;
+  margin: 0 auto 10px;
+  background-color: #777;
+  overflow: auto;
+  position: relative;
+}
+.full-slider.anim {
+  overflow: visible;
+}
+
+.all-slides {
+  width: 100%;
+  position: relative;
+  left: 0%;
+}
+.all-slides:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.all-slides > * {
+  width: 100%;
+  position: relative;
+  float: left;
+  clear: right;
+  box-sizing: border-box;
+  top: 0;
+}
+.all-slides > * img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.anim:before, .anim:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  width: 1000%;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.anim:before {
+  right: 100%;
+}
+.anim:after {
+  left: 100%;
+}
+.anim .all-slides {
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  width: 1000%;
+}
+.anim .all-slides > * {
+  width: 10%;
+}
+.anim .count2 {
+  animation-name: slide2;
+  animation-duration: 8s;
+}
+.anim .count3 {
+  animation-name: slide3;
+  animation-duration: 12s;
+}
+.anim .count4 {
+  animation-name: slide4;
+  animation-duration: 16s;
+}
+.anim .count5 {
+  animation-name: slide5;
+  animation-duration: 20s;
+}
+.anim .count6 {
+  animation-name: slide6;
+  animation-duration: 24s;
+}
