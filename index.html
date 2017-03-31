@@ -1,20 +1,46 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><meta name=title content=奇點影像工作室><meta name=description content=bojunshi,SingularPoint,奇點影像工作室><meta name=keywords content=bojunshi,SingularPoint,奇點影像工作室><meta property=og:title content=奇點影像工作室><meta property=og:type content=website><meta property=og:site_name content=奇點影像工作室><meta property=og:url content=https://bojunshi.github.io/#/ ><meta name=apple-mobile-web-app-capable content=yes><meta name=mobile-web-app-capable content=yes><title>奇點影像工作室</title><link rel=manifest href=/static/manifest.json><link href=static/css/style.css><link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel=stylesheet><link type=text/css rel=stylesheet href=/static/bower_components/materialize/dist/css/materialize.css media=screen,projection><link rel=icon href=static/img/phone1.png type=image/x-icon><link type=text/css rel=stylesheet href=./static/font-aws/css/font-awesome.css><link rel=apple-touch-icon href=./static/img/phone1.png><link rel=apple-touch-icon sizes=72×72 href=./static/img/phone2.png><link rel=apple-touch-icon sizes=114×114 href=./static/img/phone3.png><link href=/static/css/app.73a6370d4abb9cf0fd0445779ec1ea8b.css rel=stylesheet></head><body><div id=app class=container></div><script src=https://www.gstatic.com/firebasejs/3.7.3/firebase.js></script><script>// Initialize Firebase
-    var config = {
-      apiKey: "AIzaSyDmlWIzVFIOULlrSg-F3-WFgCxywnTanVw",
-      authDomain: "bojunsih.firebaseapp.com",
-      databaseURL: "https://bojunsih.firebaseio.com",
-      storageBucket: "bojunsih.appspot.com",
-      messagingSenderId: "368888880011"
-    };
-    firebase.initializeApp(config);
-    // const dbRef = firebase.database().ref().child('PId')
-    // console.log(dbRef)
-    // dbRef.on('value', snap => console.log(snap.val()))
-    if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('./service-worker.js').then(function (registration) {
-        console.log('ServiceWorker registration successful with scope:', registration.scope);
-      }).catch(function (error) {
-        console.log('ServiceWorker registration failed:', error);
+<!DOCTYPE html public "display of affection from creativejs">
+  <head>
+    <meta charset="uft-8" />
+    <meta name="theme-color" content="#536878" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>Fireworks!</title>
+    <link href="css/fireworks.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <!--
+  I love including these comments in pages. It pleases me that
+  you're reading them as well. It's like we're having a moment.
+  We are. Anyway, the CreativeJS team though Fireworks would
+  be teh r0xx0rz and I volunteered to give this a shot. So
+  I hope you're enjoying them and doing the "Aaah! Oooh!"
+  thing. If not I'm a bit upset, but I'll let it slide.
+
+  Also, big shoutz to Paul Irish for the rAF shimidimmydoo.
+
+  Paul | aerotwist
+  -->
+  <body>
+
+    <!-- Hiding library elements in the DOM is fun -->
+    <aside id="library">
+      <img src="images/nightsky.png" id="nightsky" />
+      <img src="images/big-glow.png" id="big-glow" />
+      <img src="images/small-glow.png" id="small-glow" />
+    </aside>
+    <main id="welcome-back" class="isPaused">
+      <h1>Welcome back!</h1>
+    </main>
+  </body>
+  <script src="js/requestanimframe.js"></script>
+  <script src="js/fireworks.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      console.log("Will service worker register?");
+      navigator.serviceWorker.register('service-worker.js').then(function(reg){
+        console.log("Yes it did.");
+      }).catch(function(err) {
+        console.log("No it didn't. This happened: ", err)
       });
-    }</script><script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer=defer>< script type = "text/javascript"
-    src = "/static/bower_components/jquery/dist/jquery.js" ></script><script type=text/javascript src=/static/bower_components/materialize/dist/js/materialize.js></script><script type=text/javascript src=/static/js/manifest.a8f1dde39ce755a5111c.js></script><script type=text/javascript src=/static/js/vendor.e8a24137fc02c1f5405d.js></script><script type=text/javascript src=/static/js/app.28876ddd3dcb32bcad8b.js></script></body></html>
+    }
+  </script>
+</html>
